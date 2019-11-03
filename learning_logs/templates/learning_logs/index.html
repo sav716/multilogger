@@ -1,0 +1,32 @@
+﻿{% extends "learning_logs/base.html" %}
+
+{% block header %}
+  <div class="jumbotron">
+    <h1>It's a log, but <u>Online</u>!</h1>
+  </div>
+{% endblock header %}
+
+{% block content %}
+  <h2>
+    <a href="{% url 'users:register' %}">Register to MultiLogger</a> to make your own logs, or just keep track of something. 
+    (or keep your bookmarks, though that would be weird...) And because it's online, you can access it anywhere!
+  </h2>
+  <h4>
+    <pre>
+       _______
+      / / | \ \
+      \ \ | / /
+      | | | | |
+      | | | | |
+      \_\_|_/_/ ~Too many recipies to keep track of... use MultiLogger!
+      ( ' 3 ' )
+      / /  / /   
+      \ \_ \ \   
+      |___つ🍰つ 
+      /      \ 
+      |  /\  |                  
+      |__||__|
+      \_/ \_/
+    </pre>
+  </h4>
+{% endblock content %}
